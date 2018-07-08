@@ -1,0 +1,62 @@
+body {
+	font-family: Arial;
+}
+
+nav {
+	height: 40px;
+	font-family: Arial;
+}
+
+li {
+	display: inline;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+a:link {
+	color: gray;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.navleft {
+	float: left;
+}
+
+.navright {
+	float: right;
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+.googlelogo {
+	height: 92px;
+	padding-top: 130px;
+
+}
+
+.products {
+	height: 25px;
+
+}
+
+.search {
+	width: 500px;
+	height: 30px;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background-color: lightgrey;
+	height: 40px;
+}
+
